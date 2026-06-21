@@ -1,0 +1,10 @@
+[
+  { "category": "Programming", "icon": "Code2", "skills": ["Python", "SQL", "Java", "TypeScript"] },
+  { "category": "Data Science", "icon": "BarChart3", "skills": ["Pandas", "NumPy", "Scikit-Learn", "Statsmodels"] },
+  { "category": "Machine Learning", "icon": "Brain", "skills": ["TensorFlow", "PyTorch", "XGBoost", "Keras"] },
+  { "category": "AI / LLMs", "icon": "Sparkles", "skills": ["LangChain", "OpenAI", "LLaMA", "RAG", "Hugging Face"] },
+  { "category": "Visualization", "icon": "PieChart", "skills": ["Power BI", "Amazon QuickSight", "Matplotlib", "Seaborn", "Plotly"] },
+  { "category": "Cloud", "icon": "Cloud", "skills": ["AWS", "Azure", "GCP"] },
+  { "category": "Databases", "icon": "Database", "skills": ["SQL Server", "PostgreSQL", "MongoDB", "Snowflake"] },
+  { "category": "Tools", "icon": "Wrench", "skills": ["Git", "Docker", "Airflow", "Jupyter"] }
+]

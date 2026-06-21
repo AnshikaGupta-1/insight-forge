@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Microsoft Certified: Azure AI Fundamentals",
+    "provider": "Microsoft",
+    "date": "May 2024",
+    "type": "image",
+    "image": "",
+    "url": "https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/"
+  },
+  {
+    "name": "Google Data Analytics Professional Certificate",
+    "provider": "Google",
+    "date": "Jan 2024",
+    "type": "image",
+    "image": "",
+    "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
+  },
+  {
+    "name": "AWS Certified Cloud Practitioner",
+    "provider": "Amazon Web Services",
+    "date": "Sep 2024",
+    "type": "image",
+    "image": "",
+    "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+  },
+  {
+    "name": "Databricks Lakehouse Fundamentals",
+    "provider": "Databricks",
+    "date": "Nov 2024",
+    "type": "image",
+    "image": "",
+    "url": "https://www.databricks.com/learn/certification"
+  }
+]
