@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Celebal Technologies",
+    "role": "Data Analyst",
+    "duration": "May 2024 – Present",
+    "location": "Remote",
+    "tech": ["Python", "SQL", "Amazon QuickSight", "AWS"],
+    "achievements": [
+      "Developed interactive dashboards using Amazon QuickSight to track KPIs and business metrics across teams.",
+      "Analyzed large datasets using SQL and Python to extract actionable insights driving product decisions.",
+      "Automated data pipelines and improved reporting accuracy by 25%."
+    ]
+  },
+  {
+    "company": "Celebal Technologies",
+    "role": "Data Science Trainee",
+    "duration": "Apr 2023 – May 2024",
+    "location": "Remote",
+    "tech": ["Python", "Scikit-Learn", "Pandas", "TensorFlow"],
+    "achievements": [
+      "Built and deployed ML models for classification and regression problems used in production.",
+      "Worked on data preprocessing, feature engineering and model evaluation pipelines.",
+      "Collaborated with cross-functional teams to deliver end-to-end ML solutions."
+    ]
+  }
+]
