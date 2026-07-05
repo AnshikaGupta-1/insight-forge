@@ -47,10 +47,10 @@ export function Contact() {
             className="lg:col-span-2 space-y-4"
           >
             {[
-              { Icon: Mail, label: "Email", value: "hello@example.com", href: "mailto:hello@example.com" },
-              { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/yourname", href: "https://linkedin.com" },
-              { Icon: Github, label: "GitHub", value: "github.com/yourname", href: "https://github.com" },
-              { Icon: MapPin, label: "Location", value: "Available worldwide / Remote" },
+              { Icon: Mail, label: "Email", value: "anshikagupta379@gmail.com", href: "mailto:anshikagupta379@gmail.com" },
+              { Icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/anshika-gupta-01972b27a", href: "https://www.linkedin.com/in/anshika-gupta-01972b27a" },
+              { Icon: Github, label: "GitHub", value: "github.com/yourname/AnshikaGupta-1", href: "https://github.com/AnshikaGupta-1" },
+              { Icon: MapPin, label: "Location", value: "Available worldwide / Remote / India" },
             ].map(({ Icon, label, value, href }) => (
               <a
                 key={label}
