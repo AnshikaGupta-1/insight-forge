@@ -16,7 +16,7 @@ export function Hero() {
             Hello, I&apos;m
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05]">
-            {"{{YOUR_NAME}}"}
+            {"{{Anshika Gupta}}"}
           </h1>
           <p className="mt-5 text-lg sm:text-xl font-semibold text-blue-400">
             Data Analyst <span className="text-white/30">|</span> AI Engineer{" "}
@@ -47,9 +47,9 @@ export function Hero() {
 
           <div className="mt-8 flex items-center gap-2">
             {[
-              { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { Icon: Github, href: "https://github.com", label: "GitHub" },
-              { Icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/anshika-gupta-01972b27a", label: "LinkedIn" },
+              { Icon: Github, href: "https://github.com/AnshikaGupta-1", label: "GitHub" },
+              { Icon: Mail, href: "mailto:anshikagupta379@gmail.com", label: "Email" },
             ].map(({ Icon, href, label }) => (
               <a
                 key={label}
