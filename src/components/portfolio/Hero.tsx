@@ -30,7 +30,7 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href={resume}
-              download
+              download="AnshikaGuptaResume.pdf"
               className="inline-flex items-center gap-2 rounded-md bg-brand hover:bg-brand-dark px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/25 transition-colors"
             >
               Download Resume <Download size={16} />
