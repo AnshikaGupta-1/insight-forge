@@ -19,7 +19,7 @@ export function Hero() {
             {"{{Anshika Gupta}}"}
           </h1>
           <p className="mt-5 text-lg sm:text-xl font-semibold text-blue-400">
-            Data Analyst <span className="text-white/30">|</span> AI Engineer{" "}
+            Data Scientist <span className="text-white/30">|</span> Data Analyst <span className="text-white/30">|</span> AI Engineer{" "}
             <span className="text-white/30">|</span> Machine Learning Engineer
           </p>
           <p className="mt-6 text-base sm:text-lg text-white/70 max-w-xl leading-relaxed">
