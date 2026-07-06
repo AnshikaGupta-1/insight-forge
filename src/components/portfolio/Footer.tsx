@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex items-center gap-3">
           <span className="text-lg font-bold">AG<span className="text-brand">.</span></span>
           <span className="text-sm text-white/60">
-            © {new Date().getFullYear()} {"{{YOUR_NAME}}"}. All rights reserved.
+            © {new Date().getFullYear()} {"Anshika Gupta"}. All rights reserved.
           </span>
         </div>
         <div className="flex items-center gap-1">
