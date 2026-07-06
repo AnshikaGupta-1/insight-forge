@@ -4,6 +4,7 @@
     "provider": "Databricks",
     "date": "Aug 2025",
     "type": "image",
+    "embedUrl": "",
     "image": "",
     "url": "https://credentials.databricks.com/42a479dc-fedc-499a-8060-0bdd0e766f1f#acc.2RAFScQ9"
   },
@@ -11,7 +12,8 @@
     "name": "Google Cloud – Build GenAI Solutions using Model Garden models and APIs",
     "provider": "Google Cloud",
     "date": "Nov 2025",
-    "type": "image",
+    "type": "embed",
+    "embedUrl": "https://www.credly.com/embedded_badge/9e2fa582-f98d-4142-9b75-23af11379c9f",
     "image": "",
     "url": "https://www.credly.com/badges/635f7112-6027-4f66-bb41-16e669d810cd/public_url"
   },
@@ -19,7 +21,8 @@
     "name": "SAFe® 6 DevOps Practitioner",
     "provider": "SAFe®",
     "date": "Oct 2025",
-    "type": "image",
+    "type": "embed",
+    "embedUrl": "",
     "image": "",
     "url": "https://www.credly.com/badges/f899e542-7857-42c0-9827-b8d09dd40cf8/email"
   },
@@ -27,7 +30,8 @@
     "name": "AWS Academy Graduate - Cloud Foundations",
     "provider": "AWS",
     "date": "Feb 2023",
-    "type": "image",
+    "type": "embed",
+    "embedUrl": "",
     "image": "",
     "url": "https://www.credly.com/badges/d014462d-eab3-4705-bcae-5b09231cf2f5"
   }
