@@ -24,12 +24,25 @@
     "role": "Data Scientist",
     "duration": "October 2024- June 2025",
     "location": "Noida, Uttar Pradesh",
-    "tech": ["Python", "PostgreSQL", "AWS EC2", "Amazon QuickSight", "SFTP", "LLaMA 3.2", "SQL"] ,
+    "tech": ["Python", "PostgreSQL", "AWS EC2", "Amazon QuickSight", "SFTP", "LLaMA 3.2", "SQL"],
     "achievements": [
-    "Built scalable data pipelines using SFTP and AWS EC2, enabling automated ingestion and processing of workforce and payroll data.",
-    "Processed and transformed over 15 million records across 500+ fields in PostgreSQL through data cleaning, joins, normalization, feature engineering, and custom attrition calculations.",
-    "Developed predictive workforce analytics dashboards in Amazon QuickSight for Quess Corp, providing insights into attrition, onboarding, and requisition metrics for more than 500,000 employees while replacing manual reporting.",
-    "Fine-tuned LLaMA 3.2 to develop an AI-powered HR chatbot, improving HR policy query accuracy by 35% and reducing manual HR support efforts."
+      "Built scalable data pipelines using SFTP and AWS EC2, enabling automated ingestion and processing of workforce and payroll data.",
+      "Processed and transformed over 15 million records across 500+ fields in PostgreSQL through data cleaning, joins, normalization, feature engineering, and custom attrition calculations.",
+      "Developed predictive workforce analytics dashboards in Amazon QuickSight for Quess Corp, providing insights into attrition, onboarding, and requisition metrics for more than 500,000 employees while replacing manual reporting.",
+      "Fine-tuned LLaMA 3.2 to develop an AI-powered HR chatbot, improving HR policy query accuracy by 35% and reducing manual HR support efforts."
+    ]
+  },
+  {
+    "company": "Forvis Mazars",
+    "role": "Data Analyst Intern",
+    "duration": "February 2023 – April 2023",
+    "location": "Gurgaon, Haryana",
+    "tech": ["SQL", "Power BI", "DAX", "Excel Macros", "Python", "Machine Learning", "C++"],
+    "achievements": [
+      "Analyzed financial data from ERP and CRM systems using SQL, ensuring accurate and timely audit reporting.",
+      "Automated data cleaning workflows and developed custom KPIs using Excel Macros and DAX in Power BI, improving reporting efficiency by 30%.",
+      "Led a team of interns to build a machine learning-based anomaly detection solution that accelerated audit processes.",
+      "Optimized model performance by integrating C++ modules, improving processing speed and memory efficiency by 15%."
     ]
   }
 ]
