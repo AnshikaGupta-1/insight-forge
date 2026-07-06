@@ -88,5 +88,50 @@
     "solution": "Chunked + embedded docs into FAISS; LangChain orchestrates retrieval + answer with citations.",
     "challenges": "Chunking strategy and hallucination control on edge questions.",
     "results": "Cut average answer-finding time from ~8 min to <30 sec."
+  },
+  {
+    "id": "spotify-dashboard",
+    "title": "Spotify Music Analytics Dashboard using Power BI",
+    "description": "Interactive Power BI dashboard analyzing Spotify listening trends, artist popularity, genres, albums, and user engagement through rich visualizations.",
+    "thumbnail": "",
+    "accent": "from-lime-500 to-teal-600",
+    "icon": "BarChart3",
+    "github": "https://github.com/AnshikaGupta-1/SpotifyDashboard",
+    "demo": "",
+    "tech": ["Power BI", "DAX", "Power Query"],
+    "problem": "Raw Spotify datasets made it difficult to uncover meaningful listening patterns and music trends.",
+    "solution": "Designed an interactive Power BI dashboard with dynamic filters, KPIs, charts, and drill-down capabilities to explore music insights.",
+    "challenges": "Cleaning inconsistent music metadata and designing intuitive visualizations for multiple analytical perspectives.",
+    "results": "Delivered an interactive dashboard enabling quick exploration of artists, genres, tracks, and listening behavior."
+  },
+  {
+    "id": "ipl-dashboard",
+    "title": "IPL Performance & Trends Dashboard using Power BI",
+    "description": "Comprehensive Power BI dashboard providing insights into IPL team performance, player statistics, match outcomes, and season-wise trends.",
+    "thumbnail": "",
+    "accent": "from-amber-500 to-orange-700",
+    "icon": "Trophy",
+    "github": "https://github.com/AnshikaGupta-1/IPL-Performance-and-Trends-PowerBI",
+    "demo": "",
+    "tech": ["Power BI", "DAX", "Power Query", "Excel"],
+    "problem": "Large IPL datasets made it difficult to identify long-term team and player performance trends.",
+    "solution": "Built an interactive Power BI dashboard featuring KPIs, slicers, custom measures, and visual analytics for season-wise comparisons.",
+    "challenges": "Combining historical IPL datasets and creating meaningful performance metrics across multiple seasons.",
+    "results": "Produced an insightful dashboard enabling quick analysis of teams, players, venues, and tournament trends."
+  },
+  {
+    "id": "crime-dashboard",
+    "title": "Crime Data Analysis Dashboard using Python, Tableau and SQL",
+    "description": "End-to-end crime analytics project combining SQL, Python, and Tableau to uncover crime patterns, hotspots, temporal trends, and actionable insights.",
+    "thumbnail": "",
+    "accent": "from-fuchsia-600 to-purple-800",
+    "icon": "Map",
+    "github": "https://github.com/AnshikaGupta-1/Crime-Data-Analysis",
+    "demo": "",
+    "tech": ["Python", "Tableau", "SQL", "Pandas"],
+    "problem": "Crime records were scattered across large datasets, making trend analysis and hotspot identification difficult.",
+    "solution": "Processed and analyzed crime data using SQL and Python before building an interactive Tableau dashboard for exploratory analysis.",
+    "challenges": "Handling missing data, ensuring data consistency, and designing visualizations that clearly communicated crime patterns.",
+    "results": "Created an interactive analytical dashboard that highlights crime hotspots, seasonal trends, and key crime statistics for data-driven decision-making."
   }
 ]
