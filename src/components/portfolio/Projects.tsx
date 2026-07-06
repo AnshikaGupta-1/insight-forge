@@ -11,6 +11,9 @@ import {
   Users,
   MessageSquare,
   Sparkles,
+  BarChart3,
+  Trophy,
+  Map,
   type LucideIcon,
 } from "lucide-react";
 import projectsData from "@/data/projects.json";
@@ -24,6 +27,9 @@ const ICONS: Record<string, LucideIcon> = {
   Users,
   MessageSquare,
   Sparkles,
+  BarChart3,
+  Trophy,
+  Map,
 };
 
 function ProjectThumb({ project }: { project: Project }) {
