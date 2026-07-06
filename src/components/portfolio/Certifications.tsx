@@ -6,7 +6,6 @@ import type { Certification } from "@/types/portfolio";
 
 export function Certifications() {
   const items = certData as Certification[];
-
   return (
     <section id="certifications" className="py-20 lg:py-28 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -15,7 +14,6 @@ export function Certifications() {
           title="Verified credentials."
           description="Programs I've completed across cloud, data, and AI."
         />
-
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {items.map((c, i) => (
             <motion.div
@@ -47,19 +45,11 @@ export function Certifications() {
                   <Award size={48} className="text-brand" strokeWidth={1.5} />
                 </div>
               )}
-
               <h3 className="text-sm font-semibold text-foreground leading-snug">
                 {c.name}
               </h3>
-
-              <p className="mt-1 text-xs text-muted-foreground">
-                {c.provider}
-              </p>
-
-              <p className="text-xs text-muted-foreground">
-                {c.date}
-              </p>
-
+              <p className="mt-1 text-xs text-muted-foreground">{c.provider}</p>
+              <p className="text-xs text-muted-foreground">{c.date}</p>
               {c.url && (
                 <a
                   href={c.url}
