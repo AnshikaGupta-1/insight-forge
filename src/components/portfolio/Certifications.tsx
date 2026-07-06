@@ -62,16 +62,16 @@ export function Certifications() {
               )}
             </motion.div>
           ))}
-                  <div className="mt-10 flex justify-center">
-          <a
-            href="https://www.credly.com/users/anshika-gupta.289018c2/edit/badges/credly"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-md bg-brand hover:bg-brand-dark px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/25 transition-colors"
-          >
-            View All Certifications <ArrowRight size={16} />
-          </a>
-        </div>
+         <div className="mt-10 flex justify-start">
+  <a
+    href="https://www.credly.com/users/anshika-gupta.289018c2/edit/badges/credly"
+    target="_blank"
+    rel="noreferrer"
+    className="inline-flex items-center gap-2 rounded-md bg-brand hover:bg-brand-dark px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/25 transition-colors"
+  >
+    View All Certifications <ArrowRight size={16} />
+  </a>
+</div>
         </div>
       </div>
     </section>
