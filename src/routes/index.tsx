@@ -12,17 +12,30 @@ import { Footer } from "@/components/portfolio/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Anshika Gupta | Data Scientist, AI & ML Engineer" },
+      {
+        title: "Anshika Gupta | Data Scientist | AI Engineer",
+      },
       {
         name: "description",
         content:
-          "Portfolio of a Data Analyst, AI Engineer, and Machine Learning Engineer building analytics, ML, and generative AI solutions.",
+          "Portfolio of Anshika Gupta showcasing Data Science, Machine Learning, Analytics, and Generative AI projects.",
       },
-      { property: "og:title", content: "Portfolio — Data Analyst, AI & ML Engineer" },
+      {
+        property: "og:title",
+        content: "Anshika Gupta | Data Scientist | AI Engineer",
+      },
       {
         property: "og:description",
         content:
-          "Senior-level portfolio showcasing data analytics, machine learning, and generative AI projects.",
+          "Portfolio showcasing Data Science, Machine Learning, Analytics, and Generative AI projects.",
+      },
+    ],
+
+    links: [
+      {
+        rel: "icon",
+        href: "/favicon.png",
+        type: "image/png",
       },
     ],
   }),
