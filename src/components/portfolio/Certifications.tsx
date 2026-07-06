@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
-import { Award, ExternalLink } from "lucide-react";
+import { Award, ExternalLink, ArrowRight } from "lucide-react";
 import certData from "@/data/certifications.json";
 import { SectionHeader } from "./SectionHeader";
 import type { Certification } from "@/types/portfolio";
 
 export function Certifications() {
   const items = certData as Certification[];
+
   return (
     <section id="certifications" className="py-20 lg:py-28 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -14,6 +15,7 @@ export function Certifications() {
           title="Verified credentials."
           description="Programs I've completed across cloud, data, and AI."
         />
+
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {items.map((c, i) => (
             <motion.div
@@ -45,9 +47,19 @@ export function Certifications() {
                   <Award size={48} className="text-brand" strokeWidth={1.5} />
                 </div>
               )}
-              <h3 className="text-sm font-semibold text-foreground leading-snug">{c.name}</h3>
-              <p className="mt-1 text-xs text-muted-foreground">{c.provider}</p>
-              <p className="text-xs text-muted-foreground">{c.date}</p>
+
+              <h3 className="text-sm font-semibold text-foreground leading-snug">
+                {c.name}
+              </h3>
+
+              <p className="mt-1 text-xs text-muted-foreground">
+                {c.provider}
+              </p>
+
+              <p className="text-xs text-muted-foreground">
+                {c.date}
+              </p>
+
               {c.url && (
                 <a
                   href={c.url}
@@ -60,6 +72,17 @@ export function Certifications() {
               )}
             </motion.div>
           ))}
+        </div>
+
+        <div className="mt-10 flex justify-center">
+          <a
+            href="https://www.credly.com/users/anshika-gupta.289018c2/edit/badges/credly"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-md bg-brand hover:bg-brand-dark px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/25 transition-colors"
+          >
+            View All Certifications <ArrowRight size={16} />
+          </a>
         </div>
       </div>
     </section>
