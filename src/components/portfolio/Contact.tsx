@@ -15,19 +15,67 @@ export function Contact() {
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [sent, setSent] = useState(false);
 
-  const submit = (e: React.FormEvent) => {
-    e.preventDefault();
-    const r = schema.safeParse(form);
-    if (!r.success) {
-      const errs: Record<string, string> = {};
-      for (const issue of r.error.issues) errs[issue.path[0] as string] = issue.message;
-      setErrors(errs);
-      return;
+const submit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  const r = schema.safeParse(form);
+
+  if (!r.success) {
+    const errs: Record<string, string> = {};
+
+    for (const issue of r.error.issues) {
+      errs[issue.path[0] as string] = issue.message;
     }
-    setErrors({});
-    setSent(true);
-    setForm({ name: "", email: "", message: "" });
-  };
+
+    setErrors(errs);
+    return;
+  }
+
+  setErrors({});
+
+  try {
+    const formData = new FormData();
+
+    formData.append("name", form.name);
+    formData.append("email", form.email);
+    formData.append("message", form.message);
+
+    formData.append(
+      "access_key",
+      import.meta.env.VITE_ACCESS_KEY
+    );
+
+    const response = await fetch(
+      "https://api.web3forms.com/submit",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
+
+    const data = await response.json();
+
+    if (data.success) {
+      setSent(true);
+
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
+
+      setTimeout(() => {
+        setSent(false);
+      }, 3000);
+    } else {
+      console.error("Web3Forms Error:", data);
+      alert("Failed to send message. Please try again.");
+    }
+  } catch (error) {
+    console.error(error);
+    alert("Something went wrong. Please try again.");
+  }
+};
 
   return (
     <section id="contact" className="py-20 lg:py-28 bg-secondary/40 border-t border-border">
