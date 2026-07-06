@@ -20,15 +20,16 @@
     ]
   },
   {
-    "company": "Celebal Technologies",
-    "role": "Data Science Trainee",
-    "duration": "Apr 2023 – May 2024",
-    "location": "Remote",
-    "tech": ["Python", "Scikit-Learn", "Pandas", "TensorFlow"],
+    "company": "JSimple Technosoft",
+    "role": "Data Scientist",
+    "duration": "October 2024- June 2025",
+    "location": "Noida, Uttar Pradesh",
+    "tech": ["Python", "PostgreSQL", "AWS EC2", "Amazon QuickSight", "SFTP", "LLaMA 3.2", "SQL"] ,
     "achievements": [
-      "Built and deployed ML models for classification and regression problems used in production.",
-      "Worked on data preprocessing, feature engineering and model evaluation pipelines.",
-      "Collaborated with cross-functional teams to deliver end-to-end ML solutions."
+    "Built scalable data pipelines using SFTP and AWS EC2, enabling automated ingestion and processing of workforce and payroll data.",
+    "Processed and transformed over 15 million records across 500+ fields in PostgreSQL through data cleaning, joins, normalization, feature engineering, and custom attrition calculations.",
+    "Developed predictive workforce analytics dashboards in Amazon QuickSight for Quess Corp, providing insights into attrition, onboarding, and requisition metrics for more than 500,000 employees while replacing manual reporting.",
+    "Fine-tuned LLaMA 3.2 to develop an AI-powered HR chatbot, improving HR policy query accuracy by 35% and reducing manual HR support efforts."
     ]
   }
 ]
