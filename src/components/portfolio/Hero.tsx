@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Download, ArrowRight, Linkedin, Github, Mail, BarChart3, Database, Code2, Brain } from "lucide-react";
 import profilePhoto from "@/assets/profile/profile-photo.png";
-import resume from "@/assets/profile/AnshikaGuptaResume.pdf";
 
 export function Hero() {
   return (
@@ -29,7 +28,7 @@ export function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href={resume}
+              href="/AnshikaGuptaResume.pdf"
               download="AnshikaGuptaResume.pdf"
               className="inline-flex items-center gap-2 rounded-md bg-brand hover:bg-brand-dark px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/25 transition-colors"
             >
