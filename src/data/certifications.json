@@ -1,34 +1,34 @@
 [
   {
-    "name": "Microsoft Certified: Azure AI Fundamentals",
-    "provider": "Microsoft",
-    "date": "May 2024",
-    "type": "image",
-    "image": "",
-    "url": "https://learn.microsoft.com/en-us/certifications/azure-ai-fundamentals/"
-  },
-  {
-    "name": "Google Data Analytics Professional Certificate",
-    "provider": "Google",
-    "date": "Jan 2024",
-    "type": "image",
-    "image": "",
-    "url": "https://www.coursera.org/professional-certificates/google-data-analytics"
-  },
-  {
-    "name": "AWS Certified Cloud Practitioner",
-    "provider": "Amazon Web Services",
-    "date": "Sep 2024",
-    "type": "image",
-    "image": "",
-    "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/"
-  },
-  {
-    "name": "Databricks Lakehouse Fundamentals",
+    "name": "Databricks Certified Generative AI Engineer Associate",
     "provider": "Databricks",
-    "date": "Nov 2024",
+    "date": "Aug 2025",
     "type": "image",
     "image": "",
-    "url": "https://www.databricks.com/learn/certification"
+    "url": "https://credentials.databricks.com/42a479dc-fedc-499a-8060-0bdd0e766f1f#acc.2RAFScQ9"
+  },
+  {
+    "name": "Google Cloud – Build GenAI Solutions using Model Garden models and APIs",
+    "provider": "Google Cloud",
+    "date": "Nov 2025",
+    "type": "image",
+    "image": "",
+    "url": "https://www.credly.com/badges/635f7112-6027-4f66-bb41-16e669d810cd/public_url"
+  },
+  {
+    "name": "SAFe® 6 DevOps Practitioner",
+    "provider": "SAFe®",
+    "date": "Oct 2025",
+    "type": "image",
+    "image": "",
+    "url": "https://www.credly.com/badges/f899e542-7857-42c0-9827-b8d09dd40cf8/email"
+  },
+  {
+    "name": "AWS Academy Graduate - Cloud Foundations",
+    "provider": "AWS",
+    "date": "Feb 2023",
+    "type": "image",
+    "image": "",
+    "url": "https://www.credly.com/badges/d014462d-eab3-4705-bcae-5b09231cf2f5"
   }
 ]
