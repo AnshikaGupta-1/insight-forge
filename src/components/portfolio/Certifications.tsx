@@ -62,9 +62,7 @@ export function Certifications() {
               )}
             </motion.div>
           ))}
-        </div>
-
-        <div className="mt-10 flex justify-center">
+                  <div className="mt-10 flex justify-center">
           <a
             href="https://www.credly.com/users/anshika-gupta.289018c2/edit/badges/credly"
             target="_blank"
@@ -73,6 +71,7 @@ export function Certifications() {
           >
             View All Certifications <ArrowRight size={16} />
           </a>
+        </div>
         </div>
       </div>
     </section>
