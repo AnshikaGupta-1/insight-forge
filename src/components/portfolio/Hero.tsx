@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Download, ArrowRight, Linkedin, Github, Mail, BarChart3, Database, Code2, Brain } from "lucide-react";
 import profilePhoto from "@/assets/profile/profile-photo.png";
-import resume from "@/assets/AnshikaGuptaResume.pdf";
+import resume from "@/assets/profile/AnshikaGuptaResume.pdf";
 
 export function Hero() {
   return (
