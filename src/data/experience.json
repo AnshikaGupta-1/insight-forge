@@ -1,14 +1,22 @@
 [
   {
-    "company": "Celebal Technologies",
-    "role": "Data Analyst",
-    "duration": "May 2024 – Present",
-    "location": "Remote",
-    "tech": ["Python", "SQL", "Amazon QuickSight", "AWS"],
+    "company": "EXL Services",
+    "role": "Data Scientist",
+    "duration": "July 2025 – Present",
+    "location": "Noida, Uttar Pradesh (Hybrid)",
+    "tech": ["Python", "SQL", "Databricks", "AWS", "Jenkins", "Bitbucket", "Jira", "RAG", "Qdrant", "LLMs"],
     "achievements": [
-      "Developed interactive dashboards using Amazon QuickSight to track KPIs and business metrics across teams.",
-      "Analyzed large datasets using SQL and Python to extract actionable insights driving product decisions.",
-      "Automated data pipelines and improved reporting accuracy by 25%."
+      "Deployed and productionized machine learning pipelines on Databricks, ensuring reliable execution of scheduled workflows.",
+      "Implemented CI/CD pipelines using Bitbucket and Jenkins with pull request-based integration and tag-based deployments across Development, Staging, and Production environments.",
+      "Collaborated with Machine Learning Engineers to integrate and deploy models into production systems while monitoring and debugging Databricks jobs to improve pipeline reliability.",
+      "Managed change requests, production incidents, and Agile sprint tasks using Jira, supporting cross-functional collaboration.",
+      "Built an AI-powered Runbook RAG system that mapped real-time Databricks alerts to exact runbook resolution steps, eliminating manual troubleshooting.",
+      "Developed a structure-aware PDF parser and context-aware chunking strategy, improving retrieval quality with vector similarity scores between 0.89 and 0.92.",
+      "Implemented Qdrant-based vector retrieval with application-level filtering to deliver accurate and context-specific runbook recommendations.",
+      "Built an Agentic RAG-powered Insurance Assistant capable of answering insurance queries through intelligent context routing.",
+      "Developed a natural language-to-SQL system with read-only safeguards, enabling secure querying of enterprise databases.",
+      "Integrated dashboard querying capabilities, allowing users to retrieve KPIs and business insights directly through a chatbot.",
+      "Implemented client-level filtering, fallback handling, and an optimized retrieval pipeline, delivering accurate responses with approximately 3-second latency."
     ]
   },
   {
