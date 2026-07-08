@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Github,
-  ExternalLink,
+  Link2,
   ArrowUpRight,
   X,
   Leaf,
@@ -97,24 +97,15 @@ export function Projects() {
                 </div>
                 <div className="mt-4 flex items-center justify-between border-t border-border pt-3">
                   <div className="flex items-center gap-1">
-                    <a
-                      href={p.github}
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="GitHub"
-                      className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
-                    >
-                      <Github size={16} />
-                    </a>
-                    {p.demo && (
+                    {p.link && (
                       <a
-                        href={p.demo}
+                        href={p.link}
                         target="_blank"
                         rel="noreferrer"
-                        aria-label="Live demo"
+                        aria-label="Project link"
                         className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
                       >
-                        <ExternalLink size={16} />
+                        <Link2 size={16} />
                       </a>
                     )}
                   </div>
@@ -208,14 +199,14 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
             >
               <Github size={16} /> View on GitHub
             </a>
-            {project.demo && (
+            {project.link && (
               <a
-                href={project.demo}
+                href={project.link}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-md bg-brand text-white px-4 py-2 text-sm font-semibold hover:bg-brand-dark"
               >
-                <ExternalLink size={16} /> Live Demo
+                <Link2 size={16} /> Live Demo
               </a>
             )}
           </div>
