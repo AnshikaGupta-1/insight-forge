@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Github,
-  Link2,
+  Link,
   ArrowUpRight,
   X,
   Leaf,
@@ -103,9 +103,9 @@ export function Projects() {
                         target="_blank"
                         rel="noreferrer"
                         aria-label="Project link"
-                        className="p-2 rounded-md text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
+                        className="p-2 rounded-md text-blue-600 hover:text-blue-700 hover:bg-secondary transition-colors"
                       >
-                        <Link2 size={16} />
+                        <Link size={20} />
                       </a>
                     )}
                   </div>
@@ -199,16 +199,6 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
             >
               <Github size={16} /> View on GitHub
             </a>
-            {project.link && (
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-md bg-brand text-white px-4 py-2 text-sm font-semibold hover:bg-brand-dark"
-              >
-                <Link2 size={16} /> Live Demo
-              </a>
-            )}
           </div>
         </div>
       </motion.div>
