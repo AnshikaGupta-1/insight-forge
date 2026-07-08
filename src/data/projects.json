@@ -11,8 +11,8 @@
     "tech": ["FastAPI", "Hugging Face", "TMDb API", "Python"],
     "problem": "Gauging audience sentiment on a movie meant manually reading through dozens of scattered reviews.",
     "solution": "Fetches TMDb reviews, classifies them with a RoBERTa model via the Hugging Face Inference API, and computes a confidence-weighted sentiment score.",
-    "challenges": "Handling Hugging Face model cold-starts with retry logic, and turning 3-class (positive/neutral/negative) predictions into one clean overall metric.",
-    "results": "Deployed on Vercel with concurrent async review processing and in-memory caching for fast repeat lookups."
+    "challenges": "Handled Hugging Face cold starts with retries and combined 3-class predictions into a single sentiment score.",
+    "results": "Deployed on Vercel with async processing and in-memory caching for faster repeat searches."
   },
   {
     "id": "crop-disease",
