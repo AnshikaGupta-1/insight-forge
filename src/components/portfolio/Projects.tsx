@@ -32,7 +32,7 @@ const ICONS: Record<string, LucideIcon> = {
   Map,
 };
 
-function ProjectThumb({ project }: { project: Project }) {
+function ProjectThumb({ project, iconSize = 56 }: { project: Project; iconSize?: number }) {
   const Icon = ICONS[project.icon] ?? Sparkles;
   if (project.thumbnail) {
     return (
@@ -46,7 +46,7 @@ function ProjectThumb({ project }: { project: Project }) {
   }
   return (
     <div className={`absolute inset-0 bg-gradient-to-br ${project.accent} flex items-center justify-center`}>
-      <Icon size={56} className="text-white/90" strokeWidth={1.4} />
+      <Icon size={iconSize} className="text-white/90" strokeWidth={1.4} />
       <div className="absolute inset-0 hero-grid opacity-40" />
     </div>
   );
@@ -153,8 +153,8 @@ function ProjectModal({ project, onClose }: { project: Project; onClose: () => v
         >
           <X size={18} />
         </button>
-        <div className="relative aspect-[16/8] overflow-hidden">
-          <ProjectThumb project={project} />
+        <div className="relative aspect-[21/9] max-h-[180px] overflow-hidden">
+          <ProjectThumb project={project} iconSize={36} />
         </div>
         <div className="p-6 lg:p-8 space-y-6">
           <div>
