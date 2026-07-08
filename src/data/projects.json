@@ -10,7 +10,7 @@
     "link": "https://imdb-sentiment-analyzer-beta.vercel.app/",
     "tech": ["FastAPI", "Hugging Face", "TMDb API", "Python"],
     "problem": "Gauging audience sentiment on a movie meant manually reading through dozens of scattered reviews.",
-    "solution": "Built a FastAPI app that fetches reviews via TMDb's API and classifies each with cardiffnlp/twitter-roberta-base-sentiment-latest through the Hugging Face Inference API, aggregating results into a confidence-weighted overall score.",
+    "solution": "Fetches TMDb reviews, classifies them with a RoBERTa model via the Hugging Face Inference API, and computes a confidence-weighted sentiment score.",
     "challenges": "Handling Hugging Face model cold-starts with retry logic, and turning 3-class (positive/neutral/negative) predictions into one clean overall metric.",
     "results": "Deployed on Vercel with concurrent async review processing and in-memory caching for fast repeat lookups."
   },
