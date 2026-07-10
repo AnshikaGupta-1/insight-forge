@@ -16,7 +16,7 @@ export function Hero() {
             Hello, I&apos;m
           </p>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05]">
-            <span className="text-brand">&#123;</span> Anshika Gupta <span className="text-brand">&#125;</span>
+            {"{{Anshika Gupta}}"}
           </h1>
           <p className="mt-5 text-lg sm:text-xl font-semibold text-blue-400">
              Data Scientist <span className="text-white/30">|</span> Data Analyst{" "} <span className="text-white/30">|</span> AI Engineer{" "} <span className="text-white/30">|</span> Machine Learning Engineer
@@ -27,7 +27,7 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            
+            <a
               href="/AnshikaGuptaResume.pdf"
               download="AnshikaGuptaResume.pdf"
               className="inline-flex items-center gap-2 rounded-md bg-brand hover:bg-brand-dark px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-brand/25 transition-colors"
@@ -50,7 +50,7 @@ export function Hero() {
               { Icon: Github, href: "https://github.com/AnshikaGupta-1", label: "GitHub" },
               { Icon: Mail, href: "mailto:anshikagupta379@gmail.com", label: "Email" },
             ].map(({ Icon, href, label }) => (
-              
+              <a
                 key={label}
                 href={href}
                 aria-label={label}
