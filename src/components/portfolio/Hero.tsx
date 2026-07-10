@@ -15,9 +15,13 @@ export function Hero() {
           <p className="text-brand font-semibold text-sm tracking-wide mb-4">
             Hello, I&apos;m
           </p>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05]">
-            {"{{Anshika Gupta}}"}
-          </h1>
+          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.05]">
+              <span className="whitespace-nowrap">
+                <span className="text-brand">{'{'}</span>
+                <span> Anshika Gupta </span>
+                <span className="text-brand">{'}'}</span>
+              </span>
+          </h2>
           <p className="mt-5 text-lg sm:text-xl font-semibold text-blue-400">
              Data Scientist <span className="text-white/30">|</span> Data Analyst{" "} <span className="text-white/30">|</span> AI Engineer{" "} <span className="text-white/30">|</span> Machine Learning Engineer
           </p>
