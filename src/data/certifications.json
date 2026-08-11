@@ -1,4 +1,13 @@
 [
+    {
+    "name": "AWS Certified Solutions Architect - Associate",
+    "provider": "AWS",
+    "date": "Aug 2026",
+    "type": "image",
+    "embedUrl": "https://www.credly.com/embedded_badge/f8102f10-ebf5-4083-9afd-33d35c29b04d",
+    "image": "",
+    "url": "https://www.credly.com/badges/f8102f10-ebf5-4083-9afd-33d35c29b04d/public_url"
+  },
   {
     "name": "Databricks Certified Generative AI Engineer Associate",
     "provider": "Databricks",
@@ -7,6 +16,15 @@
     "embedUrl": "",
     "image": "",
     "url": "https://credentials.databricks.com/42a479dc-fedc-499a-8060-0bdd0e766f1f#acc.2RAFScQ9"
+  },
+  {
+    "name": "Claude Certified Architect - Associate",
+    "provider": "Anthropic",
+    "date": "Aug 2026",
+    "type": "image",
+    "embedUrl": "https://www.credly.com/embedded_badge/bd26fa89-21ec-41c0-8bd0-5e46a20a9dd4",
+    "image": "",
+    "url": "https://www.credly.com/badges/bd26fa89-21ec-41c0-8bd0-5e46a20a9dd4/public_url"
   },
   {
     "name": "Google Cloud – Build GenAI Solutions using Model Garden models and APIs",
